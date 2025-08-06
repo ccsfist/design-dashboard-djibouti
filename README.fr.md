@@ -2,16 +2,6 @@
 
 Ce dépôt contient le **Tableau de Bord de Conception**, un outil de prévision climatique et d'évaluation des risques conçu pour soutenir les décisions d'aide humanitaire et la planification agricole.
 
-## Aperçu
-
-Le Tableau de Bord de Conception fournit :
-- **Prévisions climatiques** avec analyse de probabilité de dépassement
-- **Évaluation des risques** pour la prise de décision d'aide humanitaire
-- **Validation historique** de la performance des prévisions
-- **Support multi-pays** pour les régions d'Afrique et au-delà
-- **Visualisation interactive des données** avec cartes, graphiques et tableaux
-- **Support des fichiers de formes locales** pour les limites géographiques sans connectivité de base de données
-
 ## Guide de Démarrage Rapide
 
 Ce guide vous accompagnera dans la configuration du Tableau de Bord de Conception depuis le début, incluant la préparation des données, la configuration de l'environnement et la configuration.
