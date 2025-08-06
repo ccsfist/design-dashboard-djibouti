@@ -2,15 +2,6 @@
 
 This repository contains the **Design Dashboard**, a climate forecasting and risk assessment tool designed to support humanitarian aid decisions and agricultural planning.
 
-## Overview
-
-The Design Dashboard provides:
-- **Climate forecasts** with probability of exceedance analysis
-- **Risk assessment** for humanitarian aid decision-making
-- **Historical validation** of forecast performance
-- **Multi-country support** for regions in Africa and beyond
-- **Interactive data visualization** with maps, charts, and tables
-- **Local shapefile support** for geographic boundaries without database connectivity
 
 ## Quick Start Guide
 
