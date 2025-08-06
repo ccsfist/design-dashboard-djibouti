@@ -1,0 +1,210 @@
+body {
+    /* Override browser default margin on <body>. Non-zero margin makes
+    the content div, which has height: 100vh, exceed the window
+    size. Pad the div instead. */
+    /* Bootstrap does this; keeping it here in case we stop using
+    bootstrap. */
+    margin: 0;
+    font-size: 14px;
+}
+
+#toplevel {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* Bootstrap does this; repeating it here in case we stop using bootstrap. */
+    box-sizing: border-box;
+}
+
+#control_row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* row containing the map and the table */
+#main_row {
+    display: flex;
+    flex-grow: 1;
+    min-height: 0;
+    /* otherwise it gets sized to fit the table content and overflows the viewport. */
+}
+
+#lcol {
+    flex: 1 0 0%;
+}
+
+#rcol {
+    flex: 1 0 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+#table_controls {
+    display: flex;
+    flex-direction: row;
+}
+
+#table_container {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.value {
+    color: black;
+    font-size: 10px;
+}
+
+#freq.severity0 .rc-slider-handle {
+    border: solid 1px;
+    background-color: #fdfd96;
+}
+
+#freq.severity1 .rc-slider-handle {
+    border: solid 1px;
+    background-color: #ffb347;
+}
+
+#freq.severity2 .rc-slider-handle {
+    border: solid 1px;
+    background-color: #ff6961;
+}
+
+.tooltiptext {
+    opacity: 1 !important;
+}
+
+.tooltiptext .tooltip-inner {
+    color: black;
+    background-color: #E4E4E4;
+    max-width: 300px;
+    min-width: 300px;
+    font-size: 110%;
+}
+
+.tooltiptext .tooltip-arrow {
+    display: none;
+}
+
+#control_row label {
+    margin-bottom: 0.5rem;
+}
+
+table.supertable {
+    border-collapse: separate;
+    border-spacing: 0;
+    table-layout: fixed;
+
+    text-align: center;
+    font-size: 14px;
+    font-family: monospace;
+
+    display: block;
+}
+
+table.supertable td,
+table.supertable th {
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: rgb(200, 200, 200);
+
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(200, 200, 200);
+
+    padding: 6px;
+}
+
+table.supertable th {
+    background-color: white;
+    font-weight: bold;
+    color: rgb(251, 101, 57);
+}
+
+table.supertable tr th:first-child {
+    color: rgb(67, 104, 176);
+}
+
+table.supertable thead tr:nth-child(2) th {
+    border-right-style: none;
+}
+
+table.supertable thead tr:nth-child(2) th:last-child {
+    border-right-style: solid;
+}
+
+table.supertable thead tr:first-child th {
+    background-color: rgb(241, 241, 241);
+    color: black;
+    position: sticky;
+    top: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(200, 200, 200);
+}
+
+table.supertable tbody {
+    background-color: rgb(248, 248, 248);
+}
+
+.cell-severity-0 {
+    background-color: #fdfd96;
+}
+
+.cell-excluded-severity-0 {
+    background-color: #98985a;
+}
+
+.cell-severity-1 {
+    background-color: #ffb347;
+}
+
+.cell-excluded-severity-1 {
+    background-color: #996b2b;
+}
+
+.cell-severity-2 {
+    background-color: #ff6961;
+}
+
+.cell-excluded-severity-2 {
+    background-color: #993f3a;
+    color: white;
+}
+
+.cell-excluded {
+    background-color: rgb(150, 150, 150);
+}
+
+#season_links .btn-primary {
+    line-height: 22px;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    border-radius: 4px;
+    font: 14px / 16px Arial, Helvetica, sans-serif;
+    --bs-btn-color: #333;
+    --bs-btn-bg: white;
+    --bs-btn-border-color: #ccc;
+    --bs-btn-hover-border-color: #ccc;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-color: #333;
+    --bs-btn-active-color: #333;
+    --bs-btn-active-border-color: #ccc;
+    --bs-btn-active-bg: white;
+    --bs-btn-disabled-color: #333;
+    --bs-btn-disabled-bg: white;
+}
+
+#season_links .dropdown-toggle::after {
+    float: right;
+    margin: 5px;
+    border-width: 5px 5px 2.5px;
+    color: #999;
+}
+
+#season_links .dropdown-item {
+    --bs-dropdown-link-active-bg: #cfe2ff;
+    --bs-dropdown-link-active-color: black;
+}

@@ -1,0 +1,6 @@
+[submodule "python_maproom_djibouti"]
+	path = python_maproom_djibouti
+	url = git@bitbucket.org:iridl/python_maproom_djibouti.git
+[submodule "fbfmaproom/python_maproom_djibouti"]
+	path = fbfmaproom/python_maproom_djibouti
+	url = git@bitbucket.org:iridl/python_maproom_djibouti.git

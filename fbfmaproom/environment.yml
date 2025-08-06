@@ -1,0 +1,28 @@
+name: fbfmaproom2
+channels:
+  - conda-forge
+  - iridl
+dependencies:
+  - python=3.9.*
+  - cftime
+  - dash=2.3.1.*
+  - dash-leaflet-iri
+  - dash-bootstrap-components
+  - gunicorn  # [not win]
+  - numpy=1.24.2
+  - opencv
+  - pandas=1.3.*
+  - pip
+  - psycopg2
+  - pyyaml
+  - rasterio
+  - shapely
+  - werkzeug<2.1
+  - xarray
+  - zarr
+  - dask
+  - scipy
+  - geopandas
+  - pip:
+    - netcdf4
+    - pytest 
