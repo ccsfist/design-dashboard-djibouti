@@ -17,7 +17,7 @@ This guide will walk you through setting up the Design Dashboard from scratch, i
 
 ```bash
 # Clone the repository
-git clone https://github.com/nitinmagima/python-maproom-djibouti.git
+git clone https://github.com/ccsfist/design-dashboard-djibouti.git
 cd python-maproom-djibouti
 
 # Navigate to the fbfmaproom directory
