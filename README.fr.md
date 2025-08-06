@@ -16,7 +16,7 @@ Ce guide vous accompagnera dans la configuration du Tableau de Bord de Conceptio
 
 ```bash
 # Cloner le dépôt
-git clone https://github.com/nitinmagima/python-maproom-djibouti.git
+git clone https://github.com/ccsfist/design-dashboard-djibouti.git
 cd python-maproom-djibouti
 
 # Naviguer vers le répertoire fbfmaproom
